@@ -53,7 +53,7 @@
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-sm-12 footer-bottom text-center p-4">
-                <p class="m-0">Copyright © 2021 all rights reserved GenaHealthX</p>
+                <p class="m-0">Copyright © 2021 all rights reserved adsduniya</p>
             </div>
         </div>
     </div>
