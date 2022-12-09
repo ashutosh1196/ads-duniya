@@ -15,18 +15,12 @@
 <!-- Deit plan Start -->
 <section class="deit_plan">
   <div class="container pt-lg-4">
-      <div class="card-box rounded shadow-sm border py-4 px-4">
-        <div class="row align-items-center">
-             <div class="col-lg-2 mt-3 mt-md-0 text-center text-md-start">
-                <img src="{{\App\Models\Blog::IMAGE_URL.$blog->image}}" class="" alt="img" style="height:250px">
-            </div>
-        </div>
-    </div>
-
-
+    
     <!-- details -->
     <div class="card-box rounded shadow-sm border py-4 px-4 mt-4" style="background:">
         <div class="row align-items-center" style="margin:20px;padding-right:50px;">
+            
+            <img src="{{\App\Models\Blog::IMAGE_URL.$blog->image}}" class="" alt="img" style="height:250px;margin:20px auto;width:auto;max-width:100%;">
 
             {!! $blog->description !!}
         </div>

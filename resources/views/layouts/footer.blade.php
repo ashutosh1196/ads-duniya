@@ -15,30 +15,24 @@
             </div>
             <div class="col-md-6 col-lg-3 footer-colm">
                 <div class="foot-col-2">
-                    <h4>CATEGORIES</h4>
+                    <h4>Categories</h4>
                     <ul class="ps-0 mt-4 footer_unorder">
                         <li><a href="{{route('credit-cards')}}">Credit Cards</a></li>
                         <li><a href="{{route('saving-account')}}">Saving Account</a></li>
-                        <li><a href="{{route('loan','home')}}">Loan</a></li>
-                        <li><a href="#">Investment</a></li>
+                        <li><a href="{{route('mutual-fund')}}">Mutual Fund</a></li>
+                        <li><a href="{{route('demat')}}">Demat</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 footer-colm">
                 <div class="foot-col-2">
-                    <h4>ADDRESS</h4>
+                    <h4>Loan</h4>
                     <ul class="ps-0 mt-4 footer_unorder">
-                        <li class="d-flex align-items-start"><img src="{{asset('img/India.svg')}}" class="d-block mt-2 me-2" />
-                            <p class="mb-0">123 Street, New York,USA<br>
-                                gena@gmail.com<br>
-                                +012 345 67890<br></p>
-                        </li>
-                        <li class="d-flex mt-4 align-items-start"><img src="{{asset('img/Germany.svg')}}"
-                                class="d-block mt-2 me-2" />
-                            <p class="mb-0">123 Street, New York,USA<br>
-                                gena@gmail.com<br>
-                                +012 345 67890<br></p>
-                        </li>
+                        <li><a href="{{route('loan','pay later')}}">Pay Later</a></li>
+                        <li><a href="{{route('loan','home')}}">Home Loan</a></li>
+                        <li><a href="{{route('loan','personal')}}">Personal Loan</a></li>
+                        <li><a href="{{route('loan','business')}}">Business Loan</a></li>
+                        <li><a href="{{route('loan','car')}}">Car Loan</a></li>
                     </ul>
                 </div>
             </div>

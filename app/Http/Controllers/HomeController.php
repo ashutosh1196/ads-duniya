@@ -9,6 +9,8 @@ use App\Models\Loan;
 use App\Models\ChooseUs;
 use App\Models\Blog;
 use App\Models\CreditCard;
+use App\Models\MutualFund;
+use App\Models\Demat;
 
 class HomeController extends Controller
 {
@@ -73,6 +75,34 @@ class HomeController extends Controller
         $blog = Blog::find(base64_decode($id));
         return view('blog')->with([
             'blog' => $blog
+        ]);
+    }
+
+    public function mutualFund(){
+        $mutual_funds = MutualFund::all();
+        return view('mutual-funds')->with([
+            'mutual_funds' => $mutual_funds
+        ]);
+    }
+
+    public function mutualFundDetails($id){
+        $mutual_fund = MutualFund::find(base64_decode($id));
+        return view('mutual-fund-details')->with([
+            'mutual_fund' => $mutual_fund
+        ]);
+    }
+
+    public function demat(){
+        $demats = Demat::all();
+        return view('demats')->with([
+            'demats' => $demats
+        ]);
+    }
+
+    public function dematDetails($id){
+        $demat = Demat::find(base64_decode($id));
+        return view('demat-details')->with([
+            'demat' => $demat
         ]);
     }
 }

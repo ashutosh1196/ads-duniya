@@ -42,8 +42,8 @@
                       </a>
 
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Demat</a></li>
-                        <li><a class="dropdown-item" href="#">Mutual Funds</a></li>
+                        <li><a class="dropdown-item" href="{{route('demat')}}">Demat</a></li>
+                        <li><a class="dropdown-item" href="{{route('mutual-fund')}}">Mutual Funds</a></li>
                       </ul>
                     </div>
                     

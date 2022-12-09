@@ -63,14 +63,15 @@
             </div>
             
             <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <div class="feature-item_new text-center p-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                        style="width: 90px; height: 90px;">
-                        <img src="./img/investing.png" class="d-block w-75">
+                <a href="{{route('mutual-fund')}}">
+                    <div class="feature-item_new text-center p-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="width: 90px; height: 90px;">
+                            <img src="./img/investing.png" class="d-block w-75">
+                        </div>
+                        <h5 class="mb-2 service-heading">INVESTMENT</h5>
                     </div>
-                    <h5 class="mb-2 service-heading">INVESTMENT</h5>
-                    
-                </div>
+                </a>
             </div>
         </div>
 
@@ -82,7 +83,7 @@
 <section class="genetic_test">
     <div class="container pt-lg-4">
         <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <h1 class="mb-4 mt-2 text-header">Trnding Products!</h1>
+            <h1 class="mb-4 mt-2 text-header">Trending Products!</h1>
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 mt-3">
@@ -122,7 +123,7 @@
             </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="https://server3.rvtechnologies.in/Gena-HealthX/web/designs/services1.html">
+                <a href="{{route('mutual-fund')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                         style="height: 100px;">
@@ -136,7 +137,7 @@
             </div>
             
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="https://server3.rvtechnologies.in/Gena-HealthX/web/designs/services1.html">
+                <a href="{{route('demat')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                         style="height: 100px;">
@@ -148,7 +149,7 @@
             </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="https://server3.rvtechnologies.in/Gena-HealthX/web/designs/services1.html">
+                <a href="{{route('credit-cards')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                         style="height: 100px;">
