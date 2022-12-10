@@ -186,7 +186,7 @@
                             <div class="accordion-body">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        {{$item->description}}
+                                        {!! $item->description !!}
                                     </div>
                                 </div>
                             </div>
