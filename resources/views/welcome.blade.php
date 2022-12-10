@@ -22,7 +22,78 @@
             <p class="para-text">Plan your financial future. Compare, analyze & apply for various <b>Banking</b>, <b>Credit</b> and <b>Investment</b> solutions bases on your specific requirements.
             </p>
         </div>
-        <div class="row">
+
+        <!-- testing  -->
+        <div class="row" style="margin-top:50px;">
+
+            <div class="col-lg-3">
+                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+                    <a href="{{route('loan','home')}}">
+                        <div class="p-4 pb-1">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="width: 90px; height: 90px;">
+                                <img src="{{asset('loan.png')}}" class="d-block w-75">
+                            </div>      
+                        </div>
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:10px 0px;">
+                            <h3 class="heading mt-3" style="color:white">LOAN</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+                    <a href="{{route('saving-account')}}">
+                        <div class="p-4 pb-1">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="width: 90px; height: 90px;">
+                                <img src="{{asset('saving-account.png')}}" class="d-block w-75">
+                            </div>      
+                        </div>
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:10px 0px;">
+                            <h3 class="heading mt-3" style="color:white">SAVING ACCOUNT</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+                    <a href="{{route('credit-cards')}}">
+                        <div class="p-4 pb-1">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="width: 90px; height: 90px;">
+                                <img src="{{asset('credit-card.png')}}" class="d-block w-75">
+                            </div>      
+                        </div>
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:10px 0px;">
+                            <h3 class="heading mt-3" style="color:white">CREDIT CARD</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+                    <a href="{{route('mutual-fund')}}">
+                        <div class="p-4 pb-1">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="width: 90px; height: 90px;">
+                                <img src="{{asset('investment.png')}}" class="d-block w-75">
+                            </div>      
+                        </div>
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:10px 0px;">
+                            <h3 class="heading mt-3" style="color:white">INVESTMENT</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- testing  -->
+
+        <!-- <div class="row">
 
             <div class="col-12 col-md-6 col-lg-3 mt-3">
                 <a href="{{route('loan','home')}}">
@@ -32,8 +103,8 @@
                             <img src="{{asset('loan.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">LOAN</h5>
-                        
                     </div>
+                    
                 </a>
             </div>
 
@@ -46,10 +117,10 @@
                             <img src="{{asset('saving-account.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">SAVING ACCOUNT</h5>
-                        
                     </div>
                 </a>
-            </div>
+            </div> 
+
             <div class="col-12 col-md-6 col-lg-3 mt-3">
                 <a href="{{route('credit-cards')}}">
                     <div class="feature-item_new text-center p-4">
@@ -60,7 +131,7 @@
                         <h5 class="mb-2 service-heading">CREDIT CARD</h5>
                     </div>
                 </a>
-            </div>
+            </div> 
             
             <div class="col-12 col-md-6 col-lg-3 mt-3">
                 <a href="{{route('mutual-fund')}}">
@@ -72,8 +143,9 @@
                         <h5 class="mb-2 service-heading">INVESTMENT</h5>
                     </div>
                 </a>
-            </div>
-        </div>
+            </div> 
+
+        </div> -->
 
     </div>
 </section>
@@ -355,6 +427,15 @@
     .accordion-button:not(.collapsed){
         background:#2293ef;
         color:white;
+    }
+
+    .pricingTable .pricingTable-header{
+        background-color: #2293ef;
+    }
+
+    .pricingTable{
+        box-shadow:0 0 10px #ababab33;
+        background:aliceblue;
     }
 </style>
 @endsection
