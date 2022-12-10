@@ -29,7 +29,7 @@
                     <div class="feature-item_new text-center p-4">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="width: 90px; height: 90px;">
-                            <img src="./img/loan.png" class="d-block w-75">
+                            <img src="{{asset('loan.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">LOAN</h5>
                         
@@ -43,7 +43,7 @@
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="width: 90px; height: 90px;">
 
-                            <img src="./img/saving-account.png" class="d-block w-75">
+                            <img src="{{asset('saving-account.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">SAVING ACCOUNT</h5>
                         
@@ -55,7 +55,7 @@
                     <div class="feature-item_new text-center p-4">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="width: 90px; height: 90px;">
-                            <img src="./img/credit-card.png" class="d-block w-75">
+                            <img src="{{asset('credit-card.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">CREDIT CARD</h5>
                     </div>
@@ -67,7 +67,7 @@
                     <div class="feature-item_new text-center p-4">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="width: 90px; height: 90px;">
-                            <img src="./img/investing.png" class="d-block w-75">
+                            <img src="{{asset('investment.png')}}" class="d-block w-75">
                         </div>
                         <h5 class="mb-2 service-heading">INVESTMENT</h5>
                     </div>
@@ -103,7 +103,7 @@
                     <div class="feature-item_new feature_dna text-center p-4">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="height: 100px;">
-                            <img src="./img/loan.png" class="d-block w-100">
+                            <img src="{{asset('loan.png')}}" class="d-block w-100">
                         </div>
                         <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Apply For Personal Loan</h5>
                         
@@ -115,7 +115,7 @@
                 <div class="feature-item_new feature_dna text-center p-4">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                         style="height: 100px;">
-                        <img src="./img/home-loan.png" class="d-block w-100">
+                        <img src="{{asset('loan.png')}}" class="d-block w-100">
                     </div>
                     <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Plan Your Own Home With Home Loan</h5>
                     
@@ -172,8 +172,32 @@
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h1 class="mb-4 mt-2 text-header">Why Choose Us!</h1>
             </div>
+
+            <!-- adding new items -->
+            <div class="accordion" id="accordionExample2">
+                @foreach($choose_us as $item)
+                    <div class="accordion-item" style="margin:5px 0px;box-shadow:0px 0px 5px #ccc;">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_{{$item->id}}" aria-expanded="false" aria-controls="collapseOne">
+                                {{$item->title}}
+                            </button>
+                        </h2>
+                        <div id="collapse_{{$item->id}}" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        {{$item->description}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <!-- adding new items -->
+
             <!-- test -->
-            <div class="row">
+            <!-- <div class="row">
                 @foreach($choose_us as $item)
                 <div class="col-md-6 col-sm-12 mb-4">
                     <div class="career_bg">
@@ -184,7 +208,7 @@
                     </div>
                 </div>
                 @endforeach
-            </div>
+            </div> -->
             <!-- test -->
         </div>
     </section>
@@ -222,7 +246,7 @@
                     
                     
                     <div class="col-sm-12 text-center">
-                        <a href="Javascript:void(0)" id="calculate_emi" class="btn btn-primary">Calculate</a>
+                        <a href="Javascript:void(0)" id="calculate_emi" class="btn btn-primary" style="border-radius:20px;width:100px;">Calculate</a>
                     </div>                        
                 </form>
             </div>
@@ -326,6 +350,11 @@
     }
     .service-heading{
         color: black !important;
+    }
+
+    .accordion-button:not(.collapsed){
+        background:#2293ef;
+        color:white;
     }
 </style>
 @endsection

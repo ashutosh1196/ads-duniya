@@ -4,14 +4,7 @@
             <div class="col-md-6 col-lg-3">
                 <img src="{{asset('img/ads_duniya.png')}}" />
                 <p class="para-text mt-3">Plan your financial future. Compare, analyze & apply for various Banking, Credit and Investment solutions bases on your specific requirements. </p>
-                <div class="d-flex">
-                    <div class="form-floating">
-                        <input type="text" class="form-control email-footer" id="Address"
-                            placeholder="Email Address">
-                        <label for="Address">Email Address</label>
-                    </div>
-                    <button class="ms-2 Email-submit">Subscribe</button>
-                </div>
+                
             </div>
             <div class="col-md-6 col-lg-3 footer-colm">
                 <div class="foot-col-2">
