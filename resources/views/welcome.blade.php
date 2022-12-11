@@ -525,7 +525,7 @@
 
     @media screen and (max-width: 400px) {
         .heading{
-            font-size:10px !important;
+            font-size:12px !important;
         }
         .top-options{
             height:auto;
