@@ -2,8 +2,71 @@
 
 @section('section')
 
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 class="display-4 fw-bold" style="font-size: 35px;">Your Customized Banking Partner</h3>
+                <p>Plan your financial future. Compare, analyze & apply for various <b>Banking</b>, <b>Credit</b> and <b>Investment</b> solutions bases on your specific requirements.</p>
+                <!-- <button class="btn btn-success">Learn More</button> -->
+
+                <!-- testing  -->
+                <!-- <div class="row" style="margin-top:50px;">
+
+                    <a href="{{route('loan','home')}}" class="col-sm-3 mb-2">
+                        <div class="feature-item_new text-center p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                                style="width: 90px; height: 90px;">
+                                <img src="{{asset('loan.png')}}" class="d-block w-75">
+                            </div>
+                            <h5 class="mb-2 service-heading">LOAN</h5>
+                        </div>
+                    </a>
+
+                    <a href="{{route('saving-account')}}" class="col-sm-3 mb-2">
+                        <div class="feature-item_new text-center p-4 first_item position-relative">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                                style="width: 90px; height: 90px;">
+
+                                <img src="{{asset('saving-account.png')}}" class="d-block w-75">
+                            </div>
+                            <h5 class="mb-2 service-heading">SAVING ACCOUNT</h5>
+                        </div>
+                    </a>
+
+                    <a href="{{route('credit-cards')}}" class="col-sm-3">
+                        <div class="feature-item_new text-center p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                                style="width: 90px; height: 90px;">
+                                <img src="{{asset('credit-card.png')}}" class="d-block w-75">
+                            </div>
+                            <h5 class="mb-2 service-heading">CREDIT CARD</h5>
+                        </div>
+                    </a>
+
+                    <a href="{{route('mutual-fund')}}" class="col-sm-3">
+                        <div class="feature-item_new text-center p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                                style="width: 90px; height: 90px;">
+                                <img src="{{asset('investment.png')}}" class="d-block w-75">
+                            </div>
+                            <h5 class="mb-2 service-heading">INVESTMENT</h5>
+                        </div>
+                    </a>
+
+                </div> -->
+                <!-- testing  -->
+
+            </div>
+            <div class="col-sm-4">
+                <!-- here goes the image -->
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Ceo Banner section start -->
-<section class="ceo_banner_section">
+<section class="ceo_banner_section" style="display:none">
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
@@ -17,17 +80,17 @@
 <!-- Deit plan Start -->
 <section class="deit_plan">
     <div class="container pt-lg-4">
-        <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
+        <!-- <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
             <h1 class="mb-2 mt-2 text-header">We will make it easy for you!</h1>
             <p class="para-text">Plan your financial future. Compare, analyze & apply for various <b>Banking</b>, <b>Credit</b> and <b>Investment</b> solutions bases on your specific requirements.
             </p>
-        </div>
+        </div> -->
 
         <!-- testing  -->
         <div class="row" style="margin-top:50px;">
 
-            <div class="col-lg-3">
-                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+            <div class="col-md-3 col-6 mob-mb-4 top-options">
+                <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('loan','home')}}">
                         <div class="p-4 pb-1">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
@@ -42,8 +105,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
-                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+            <div class="col-md-3 col-6 mob-mb-4 top-options">
+                <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('saving-account')}}">
                         <div class="p-4 pb-1">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
@@ -58,8 +121,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
-                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+            <div class="col-md-3 col-6 mob-mb-4 top-options">
+                <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('credit-cards')}}">
                         <div class="p-4 pb-1">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
@@ -74,8 +137,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-3">
-                <div class="pricingTable" style="padding-bottom:0px;padding-top:40px;">
+            <div class="col-md-3 col-6 mob-mb-4 top-options">
+                <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('mutual-fund')}}">
                         <div class="p-4 pb-1">
                             <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
@@ -104,7 +167,6 @@
                         </div>
                         <h5 class="mb-2 service-heading">LOAN</h5>
                     </div>
-                    
                 </a>
             </div>
 
@@ -158,18 +220,19 @@
             <h1 class="mb-4 mt-2 text-header">Trending Products!</h1>
         </div>
         <div class="row">
+
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <a href="{{route('saving-account')}}">
                     <div class="feature-item_new feature_dna text-center p-4 first_item">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="height: 100px;">
-
                             <img src="./img/saving-account.png" class="d-block w-100">
                         </div>
                         <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Zero Balance Saving Account</h5>
                     </div>
                 </a>
             </div>
+
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <a href="{{route('loan','personal')}}">
                     <div class="feature-item_new feature_dna text-center p-4">
@@ -178,10 +241,10 @@
                             <img src="{{asset('loan.png')}}" class="d-block w-100">
                         </div>
                         <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Apply For Personal Loan</h5>
-                        
                     </div>
                 </a>
             </div>
+
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <a href="{{route('loan','home')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
@@ -190,20 +253,18 @@
                         <img src="{{asset('loan.png')}}" class="d-block w-100">
                     </div>
                     <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Plan Your Own Home With Home Loan</h5>
-                    
                 </div>
             </a>
             </div>
+
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <a href="{{route('mutual-fund')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
                     <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                         style="height: 100px;">
                         <img src="./img/investment.png" class="d-block w-100">
-                        
                     </div>
                     <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Fixed Deposit Investment Option</h5>
-                    
                 </div>
             </a>
             </div>
@@ -216,10 +277,10 @@
                         <img src="./img/trade-demat.png" class="d-block w-100">
                     </div>
                     <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Trade With Demat Account</h5>
-                    
                 </div>
             </a>
             </div>
+
             <div class="col-12 col-md-6 col-lg-4 mt-3">
                 <a href="{{route('credit-cards')}}">
                 <div class="feature-item_new feature_dna text-center p-4">
@@ -228,7 +289,6 @@
                         <img src="./img/credit-card.png" class="d-block w-100">
                     </div>
                     <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Life Time Free Credit Cards</h5>
-                    
                 </div>
                 </a>
             </div>
@@ -435,6 +495,52 @@
         box-shadow:0 0 10px #ababab33;
         background:aliceblue;
     }
+
+
+
+    .banner {
+      background-color: #2293ef;
+      color:white;
+      width: 100%;
+      padding: 2em 0;
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+      margin-top: 80px;
+    }
+    .row {
+      align-items: center;
+    }
+    h1 {
+      text-shadow: 1px 1px 2px #7c7c7c;
+    }
+    .btn {
+      padding: 0.5em 1.5em;
+      border-radius: 2em;
+      box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
+    }
+    @media screen and (max-width: 567px) {
+      .banner {
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+        .heading{
+            font-size:10px !important;
+        }
+        .top-options{
+            height:auto;
+        }
+    }
+    @media screen and (min-width: 401px) {
+        .heading{
+            font-size:20px !important;
+        }
+        .top-options{
+            height:auto;
+        }
+    }
+
+    
 </style>
 @endsection
 
