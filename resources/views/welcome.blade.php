@@ -98,7 +98,7 @@
                                 <img src="{{asset('loan.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:5px 0px;">
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
                             <h3 class="heading mt-3" style="color:white">LOAN</h3>
                         </div>
                     </a>
@@ -114,7 +114,7 @@
                                 <img src="{{asset('saving-account.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:5px 0px;">
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
                             <h3 class="heading mt-3" style="color:white">SAVING ACCOUNT</h3>
                         </div>
                     </a>
@@ -130,7 +130,7 @@
                                 <img src="{{asset('credit-card.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:5px 0px;">
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
                             <h3 class="heading mt-3" style="color:white">CREDIT CARD</h3>
                         </div>
                     </a>
@@ -146,7 +146,7 @@
                                 <img src="{{asset('investment.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:5px 0px;">
+                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
                             <h3 class="heading mt-3" style="color:white">INVESTMENT</h3>
                         </div>
                     </a>
