@@ -93,14 +93,14 @@
                 <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('loan','home')}}">
                         <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
                             style="width: 90px; height: 90px;">
                                 <img src="{{asset('loan.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
-                            <h3 class="heading mt-3" style="color:white">LOAN</h3>
-                        </div>
+                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
+                            <h3 class="heading">LOAN</h3>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
@@ -109,14 +109,14 @@
                 <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('saving-account')}}">
                         <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
                             style="width: 90px; height: 90px;">
                                 <img src="{{asset('saving-account.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
-                            <h3 class="heading mt-3" style="color:white">SAVING ACCOUNT</h3>
-                        </div>
+                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
+                            <h3 class="heading">SAVING ACCOUNT</h3>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
@@ -125,14 +125,14 @@
                 <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('credit-cards')}}">
                         <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
                             style="width: 90px; height: 90px;">
                                 <img src="{{asset('credit-card.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
-                            <h3 class="heading mt-3" style="color:white">CREDIT CARD</h3>
-                        </div>
+                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
+                            <h3 class="heading">CREDIT CARD</h3>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
@@ -141,14 +141,14 @@
                 <div class="pricingTable" style="padding-bottom:0px;">
                     <a href="{{route('mutual-fund')}}">
                         <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
                             style="width: 90px; height: 90px;">
                                 <img src="{{asset('investment.png')}}" class="d-block w-75">
                             </div>      
                         </div>
-                        <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;">
-                            <h3 class="heading mt-3" style="color:white">INVESTMENT</h3>
-                        </div>
+                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
+                            <h3 class="heading">INVESTMENT</h3>
+                        <!-- </div> -->
                     </a>
                 </div>
             </div>
@@ -491,13 +491,6 @@
         background-color: #2293ef;
     }
 
-    .pricingTable{
-        box-shadow:0 0 10px #ababab33;
-        background:aliceblue;
-    }
-
-
-
     .banner {
       background-color: #2293ef;
       color:white;
@@ -526,17 +519,49 @@
     @media screen and (max-width: 400px) {
         .heading{
             font-size:12px !important;
+            padding-bottom:15px;
+            color: #363636 !important;
         }
         .top-options{
             height:auto;
+        }
+        .pricingTable{
+/*            box-shadow:0 0 10px #ababab33;*/
+            background:aliceblue;
+            border:1px solid #ccc;
+            height: 100px;
+        }
+        .pricingTable .heading{
+            margin-top: -5px !important;
+        }
+        .pricingTable .rounded-circle{
+            width: 50px !important;
+            height: 50px !important;
+        }
+        .pricingTable img{
+            height: 35px !important;
+        }
+        .pricingTable .rounded-circle{
+            margin-top: -10px !important;
         }
     }
     @media screen and (min-width: 401px) {
         .heading{
             font-size:20px !important;
+            padding-bottom:15px;
+            color: #363636 !important;
         }
         .top-options{
             height:auto;
+        }
+        .pricingTable{
+/*            box-shadow:0 0 10px #ababab33;*/
+            background:aliceblue;
+            border:1px solid #ccc;
+            height: 180px;
+        }
+        .pricingTable .heading{
+            margin-top: 5px !important;
         }
     }
 
