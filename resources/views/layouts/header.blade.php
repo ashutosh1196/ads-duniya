@@ -33,10 +33,10 @@
                       </ul>
                     </div>
 
-                    <!-- <a href="https://server3.rvtechnologies.in/Gena-HealthX/web/designs/Our-recipes.html" class="nav-item nav_anchor_main nav-link">Instant Loan</a> -->
+                    <a href="{{route('auto')}}" class="nav-item nav_anchor_main nav-link">Auto</a>
 
 
-                    <div class="dropdown">
+                    <!-- <div class="dropdown">
                       <a class="nav-item nav_anchor_main nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                         Investment 
                       </a>
@@ -45,7 +45,7 @@
                         <li><a class="dropdown-item" href="{{route('demat')}}">Demat</a></li>
                         <li><a class="dropdown-item" href="{{route('mutual-fund')}}">Mutual Funds</a></li>
                       </ul>
-                    </div>
+                    </div> -->
                     
                 </div>
             </div>

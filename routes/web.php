@@ -25,3 +25,6 @@ Route::get('/mutual-fund/{id}',[HomeController::class,'mutualFundDetails'])->nam
 
 Route::get('/demat',[HomeController::class,'demat'])->name('demat');
 Route::get('/demat/{id}',[HomeController::class,'dematDetails'])->name('demat.details');
+
+Route::get('/auto',[HomeController::class,'auto'])->name('auto');
+Route::get('/auto/{id}',[HomeController::class,'autoDetails'])->name('auto.details');

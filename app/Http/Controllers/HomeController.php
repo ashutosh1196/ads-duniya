@@ -11,6 +11,8 @@ use App\Models\Blog;
 use App\Models\CreditCard;
 use App\Models\MutualFund;
 use App\Models\Demat;
+use App\Models\AutoSeller;
+use App\Models\Auto;
 
 class HomeController extends Controller
 {
@@ -18,12 +20,19 @@ class HomeController extends Controller
 
         $banks = Bank::where('status',Bank::ACTIVE)->get();
         $choose_us = ChooseUs::get();
-    	$blogs = Blog::get();
+        $blogs = Blog::get();
+
+        $trending_accounts = SavingAccount::where('is_trending',1)->get();
+        $trending_loans = Loan::where('is_trending',1)->get();
+    	$trending_cards = CreditCard::where('is_trending',1)->get();
         
     	return view('welcome')->with([
     		'banks' => $banks,
             'choose_us' => $choose_us,
             'blogs' => $blogs,
+            'trending_accounts' => $trending_accounts,
+            'trending_loans' => $trending_loans,
+            'trending_cards' => $trending_cards,
     	]);
     }
 
@@ -103,6 +112,20 @@ class HomeController extends Controller
         $demat = Demat::find(base64_decode($id));
         return view('demat-details')->with([
             'demat' => $demat
+        ]);
+    }
+
+    public function auto(){
+        $autos = Auto::all();
+        return view('auto')->with([
+            'autos' => $autos
+        ]);
+    }
+
+    public function autoDetails($id){
+        $auto = Auto::find(base64_decode($id));
+        return view('auto-details')->with([
+            'auto' => $auto
         ]);
     }
 }

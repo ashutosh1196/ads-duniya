@@ -5,213 +5,91 @@
 <div class="banner">
     <div class="container">
         <div class="row">
+
+            <div class="col-sm-4">
+                <img src="{{asset('saving-account.png')}}" class="banner_image">
+            </div>
+
             <div class="col-sm-8">
                 <h3 class="display-4 fw-bold" style="font-size: 35px;">Your Customized Banking Partner</h3>
                 <p>Plan your financial future. Compare, analyze & apply for various <b>Banking</b>, <b>Credit</b> and <b>Investment</b> solutions bases on your specific requirements.</p>
-                <!-- <button class="btn btn-success">Learn More</button> -->
-
+                
                 <!-- testing  -->
-                <!-- <div class="row" style="margin-top:50px;">
+                <div class="row" style="margin-top:50px;">
 
-                    <a href="{{route('loan','home')}}" class="col-sm-3 mb-2">
-                        <div class="feature-item_new text-center p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                                style="width: 90px; height: 90px;">
-                                <img src="{{asset('loan.png')}}" class="d-block w-75">
-                            </div>
-                            <h5 class="mb-2 service-heading">LOAN</h5>
+                    <div class="col-md-3 col-6 mob-mb-4 top-options">
+                        <div class="pricingTable" style="padding-bottom:0px;">
+                            <a href="{{route('loan','home')}}">
+                                <div class="p-4 pb-1">
+                                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
+                                    style="width: 90px; height: 90px;">
+                                        <img src="{{asset('loan.png')}}" class="d-block w-75">
+                                    </div>      
+                                </div>
+                                
+                                <h3 class="heading">LOAN</h3>
+                                
+                            </a>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="{{route('saving-account')}}" class="col-sm-3 mb-2">
-                        <div class="feature-item_new text-center p-4 first_item position-relative">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                                style="width: 90px; height: 90px;">
-
-                                <img src="{{asset('saving-account.png')}}" class="d-block w-75">
-                            </div>
-                            <h5 class="mb-2 service-heading">SAVING ACCOUNT</h5>
+                    <div class="col-md-3 col-6 mob-mb-4 top-options">
+                        <div class="pricingTable" style="padding-bottom:0px;">
+                            <a href="{{route('saving-account')}}">
+                                <div class="p-4 pb-1">
+                                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
+                                    style="width: 90px; height: 90px;">
+                                        <img src="{{asset('saving-account.png')}}" class="d-block w-75">
+                                    </div>      
+                                </div>
+                                
+                                <h3 class="heading">SAVING ACCOUNT</h3>
+                                
+                            </a>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="{{route('credit-cards')}}" class="col-sm-3">
-                        <div class="feature-item_new text-center p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                                style="width: 90px; height: 90px;">
-                                <img src="{{asset('credit-card.png')}}" class="d-block w-75">
-                            </div>
-                            <h5 class="mb-2 service-heading">CREDIT CARD</h5>
+                    <div class="col-md-3 col-6 mob-mb-4 top-options">
+                        <div class="pricingTable" style="padding-bottom:0px;">
+                            <a href="{{route('credit-cards')}}">
+                                <div class="p-4 pb-1">
+                                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
+                                    style="width: 90px; height: 90px;">
+                                        <img src="{{asset('credit-card.png')}}" class="d-block w-75">
+                                    </div>      
+                                </div>
+                                
+                                <h3 class="heading">CREDIT CARD</h3>
+                                
+                            </a>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="{{route('mutual-fund')}}" class="col-sm-3">
-                        <div class="feature-item_new text-center p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                                style="width: 90px; height: 90px;">
-                                <img src="{{asset('investment.png')}}" class="d-block w-75">
-                            </div>
-                            <h5 class="mb-2 service-heading">INVESTMENT</h5>
+                    <div class="col-md-3 col-6 mob-mb-4 top-options">
+                        <div class="pricingTable" style="padding-bottom:0px;">
+                            <a href="{{route('mutual-fund')}}">
+                                <div class="p-4 pb-1">
+                                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
+                                    style="width: 90px; height: 90px;">
+                                        <img src="{{asset('investment.png')}}" class="d-block w-75">
+                                    </div>      
+                                </div>
+                                
+                                <h3 class="heading">INVESTMENT</h3>
+                                
+                            </a>
                         </div>
-                    </a>
+                    </div>
 
-                </div> -->
-                <!-- testing  -->
+                </div>
+                <!-- testing  -->    
 
             </div>
-            <div class="col-sm-4">
-                <!-- here goes the image -->
-            </div>
+            
         </div>
     </div>
 </div>
 
-<!-- Ceo Banner section start -->
-<section class="ceo_banner_section" style="display:none">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <h1 class="main_heading_content">Your Customized Online Banking Partner</h1>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Ceo Banner section end -->
-
-<!-- Deit plan Start -->
-<section class="deit_plan">
-    <div class="container pt-lg-4">
-        <!-- <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
-            <h1 class="mb-2 mt-2 text-header">We will make it easy for you!</h1>
-            <p class="para-text">Plan your financial future. Compare, analyze & apply for various <b>Banking</b>, <b>Credit</b> and <b>Investment</b> solutions bases on your specific requirements.
-            </p>
-        </div> -->
-
-        <!-- testing  -->
-        <div class="row" style="margin-top:50px;">
-
-            <div class="col-md-3 col-6 mob-mb-4 top-options">
-                <div class="pricingTable" style="padding-bottom:0px;">
-                    <a href="{{route('loan','home')}}">
-                        <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
-                            style="width: 90px; height: 90px;">
-                                <img src="{{asset('loan.png')}}" class="d-block w-75">
-                            </div>      
-                        </div>
-                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
-                            <h3 class="heading">LOAN</h3>
-                        <!-- </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6 mob-mb-4 top-options">
-                <div class="pricingTable" style="padding-bottom:0px;">
-                    <a href="{{route('saving-account')}}">
-                        <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
-                            style="width: 90px; height: 90px;">
-                                <img src="{{asset('saving-account.png')}}" class="d-block w-75">
-                            </div>      
-                        </div>
-                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
-                            <h3 class="heading">SAVING ACCOUNT</h3>
-                        <!-- </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6 mob-mb-4 top-options">
-                <div class="pricingTable" style="padding-bottom:0px;">
-                    <a href="{{route('credit-cards')}}">
-                        <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
-                            style="width: 90px; height: 90px;">
-                                <img src="{{asset('credit-card.png')}}" class="d-block w-75">
-                            </div>      
-                        </div>
-                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
-                            <h3 class="heading">CREDIT CARD</h3>
-                        <!-- </div> -->
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-6 mob-mb-4 top-options">
-                <div class="pricingTable" style="padding-bottom:0px;">
-                    <a href="{{route('mutual-fund')}}">
-                        <div class="p-4 pb-1">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-1"
-                            style="width: 90px; height: 90px;">
-                                <img src="{{asset('investment.png')}}" class="d-block w-75">
-                            </div>      
-                        </div>
-                        <!-- <div class="pricingTable-header" style="border-radius:50% 50% 10px 10px;padding:1px 0px;"> -->
-                            <h3 class="heading">INVESTMENT</h3>
-                        <!-- </div> -->
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <!-- testing  -->
-
-        <!-- <div class="row">
-
-            <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <a href="{{route('loan','home')}}">
-                    <div class="feature-item_new text-center p-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                            style="width: 90px; height: 90px;">
-                            <img src="{{asset('loan.png')}}" class="d-block w-75">
-                        </div>
-                        <h5 class="mb-2 service-heading">LOAN</h5>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <a href="{{route('saving-account')}}">
-                    <div class="feature-item_new text-center p-4 first_item position-relative">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                            style="width: 90px; height: 90px;">
-
-                            <img src="{{asset('saving-account.png')}}" class="d-block w-75">
-                        </div>
-                        <h5 class="mb-2 service-heading">SAVING ACCOUNT</h5>
-                    </div>
-                </a>
-            </div> 
-
-            <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <a href="{{route('credit-cards')}}">
-                    <div class="feature-item_new text-center p-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                            style="width: 90px; height: 90px;">
-                            <img src="{{asset('credit-card.png')}}" class="d-block w-75">
-                        </div>
-                        <h5 class="mb-2 service-heading">CREDIT CARD</h5>
-                    </div>
-                </a>
-            </div> 
-            
-            <div class="col-12 col-md-6 col-lg-3 mt-3">
-                <a href="{{route('mutual-fund')}}">
-                    <div class="feature-item_new text-center p-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                            style="width: 90px; height: 90px;">
-                            <img src="{{asset('investment.png')}}" class="d-block w-75">
-                        </div>
-                        <h5 class="mb-2 service-heading">INVESTMENT</h5>
-                    </div>
-                </a>
-            </div> 
-
-        </div> -->
-
-    </div>
-</section>
-<!-- Deit plan End -->
 
 <!-- Genetic test Start -->
 <section class="genetic_test">
@@ -220,79 +98,47 @@
             <h1 class="mb-4 mt-2 text-header">Trending Products!</h1>
         </div>
         <div class="row">
-
+            @foreach($trending_accounts as $trending_account)
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('saving-account')}}">
+                <a href="{{route('saving-account.details',base64_encode($trending_account->id))}}">
                     <div class="feature-item_new feature_dna text-center p-4 first_item">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="height: 100px;">
-                            <img src="./img/saving-account.png" class="d-block w-100">
+                            <img src="{{\App\Models\Bank::IMAGE_URL.$trending_account->bank->logo}}" class="d-block w-100" style="max-height:100px">
                         </div>
-                        <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Zero Balance Saving Account</h5>
+                        <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">{{$trending_account->name}}</h5>
                     </div>
                 </a>
             </div>
+            @endforeach
 
+            @foreach($trending_loans as $trending_loan)
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('loan','personal')}}">
-                    <div class="feature-item_new feature_dna text-center p-4">
+                <a href="{{route('loan.details',[$trending_loan->type,base64_encode($trending_loan->id)])}}">
+                    <div class="feature-item_new feature_dna text-center p-4 first_item">
                         <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
                             style="height: 100px;">
-                            <img src="{{asset('loan.png')}}" class="d-block w-100">
+                            <img src="{{\App\Models\Bank::IMAGE_URL.$trending_loan->bank->logo}}" class="d-block w-100" style="max-height:100px">
                         </div>
-                        <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Apply For Personal Loan</h5>
+                        <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">{{$trending_loan->name}}</h5>
                     </div>
                 </a>
             </div>
+            @endforeach
 
+            @foreach($trending_cards as $trending_card)
             <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('loan','home')}}">
-                <div class="feature-item_new feature_dna text-center p-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                        style="height: 100px;">
-                        <img src="{{asset('loan.png')}}" class="d-block w-100">
+                <a href="{{route('credit-card.details',base64_encode($trending_card->id))}}">
+                    <div class="feature-item_new feature_dna text-center p-4 first_item">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
+                            style="height: 100px;">
+                            <img src="{{\App\Models\CreditCard::IMAGE_URL.$trending_card->image}}" class="d-block w-100" style="max-height:100px">
+                        </div>
+                        <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">{{$trending_card->name}}</h5>
                     </div>
-                    <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Plan Your Own Home With Home Loan</h5>
-                </div>
-            </a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('mutual-fund')}}">
-                <div class="feature-item_new feature_dna text-center p-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                        style="height: 100px;">
-                        <img src="./img/investment.png" class="d-block w-100">
-                    </div>
-                    <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Fixed Deposit Investment Option</h5>
-                </div>
-            </a>
-            </div>
-            
-            <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('demat')}}">
-                <div class="feature-item_new feature_dna text-center p-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                        style="height: 100px;">
-                        <img src="./img/trade-demat.png" class="d-block w-100">
-                    </div>
-                    <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Trade With Demat Account</h5>
-                </div>
-            </a>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 mt-3">
-                <a href="{{route('credit-cards')}}">
-                <div class="feature-item_new feature_dna text-center p-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-3"
-                        style="height: 100px;">
-                        <img src="./img/credit-card.png" class="d-block w-100">
-                    </div>
-                    <h5 class="mb-2 service-heading" style="color:#000;white-space:normal;">Life Time Free Credit Cards</h5>
-                </div>
                 </a>
             </div>
-            
+            @endforeach
         </div>
 
     </div>
@@ -328,20 +174,6 @@
             </div>
             <!-- adding new items -->
 
-            <!-- test -->
-            <!-- <div class="row">
-                @foreach($choose_us as $item)
-                <div class="col-md-6 col-sm-12 mb-4">
-                    <div class="career_bg">
-                        <div class="career_opening_text">
-                            <h4>{{$item->title}}</h4>
-                            <p>{{$item->description}}</p>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div> -->
-            <!-- test -->
         </div>
     </section>
 </div>
@@ -496,7 +328,7 @@
       color:white;
       width: 100%;
       padding: 2em 0;
-      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
       margin-top: 80px;
     }
     .row {
@@ -517,6 +349,9 @@
     }
 
     @media screen and (max-width: 400px) {
+        .banner_image{
+            height: 100px !important;
+        }
         .heading{
             font-size:12px !important;
             padding-bottom:15px;
@@ -526,7 +361,6 @@
             height:auto;
         }
         .pricingTable{
-/*            box-shadow:0 0 10px #ababab33;*/
             background:aliceblue;
             border:1px solid #ccc;
             height: 100px;
@@ -547,7 +381,7 @@
     }
     @media screen and (min-width: 401px) {
         .heading{
-            font-size:20px !important;
+            font-size:18px !important;
             padding-bottom:15px;
             color: #363636 !important;
         }
@@ -555,7 +389,6 @@
             height:auto;
         }
         .pricingTable{
-/*            box-shadow:0 0 10px #ababab33;*/
             background:aliceblue;
             border:1px solid #ccc;
             height: 180px;
